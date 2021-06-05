@@ -11,7 +11,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -29,12 +28,12 @@ Desktop
 
 Mobile
 
-TODO!
+![](./screenshots/mobile_solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/stibau/profile_card_component)
-- Live Site URL: [Add live site URL here](https://stibau.github.io/profile_card_component/)
+- Solution URL: [click here](https://github.com/stibau/profile_card_component)
+- Live Site URL: [click here](https://stibau.github.io/profile_card_component/)
 
 ## My process
 
@@ -51,10 +50,6 @@ TODO!
 * How to use flexbox to stack divs on top of each other and align them
 * How create a circular image from a rectangular one
 * How to use flexbox justify-content: space-evenly
-
-### Continued development
-
-The mobile version of this page still needs to be developed
 
 ## Author
 

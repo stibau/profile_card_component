@@ -31,12 +31,23 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 500px) {
+    body{
+        background-position: right 45vw bottom 45vh, left 45vw top 45vh;
+    }
+}
 
 .card{
     background-color: var(--white);
-    height: 22.5em;
-    width: 21em;
+    height: 20.7em;
+    width: 19.58em;
     border-radius: 15px;
+}
+@media screen and (max-width: 500px) {
+    .card{
+        height: 20.88em;
+        width: 17.97em;
+    }
 }
 
 .pic{
@@ -107,9 +118,9 @@ body{
 }
 
 .attribution {
-    padding-top: 5em;
     font-size: 0.5em;
     text-align: center;
+    margin-top: 3em;
 }
 
 .attribution a {
