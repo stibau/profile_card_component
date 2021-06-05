@@ -1,0 +1,74 @@
+/* Some global variables */
+:root{
+    /* primary */
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    /* Neutral */
+    --light-gray: hsl(0, 0%, 90%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --white: hsl(0,0%,100%);
+}
+
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* body styles: positioning the background images */
+
+body{
+    min-height: 100vh;
+    background-color: var(--dark-cyan);
+    background-image: url("../images/bg-pattern-top.svg"),url("../images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.card{
+    background-color: red;
+    height: 375px;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* How can I do this without hardcoding, if I use percentages instead of px I get thin spacing */
+    /* transform: translate(-187.5px,-175px); */
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+
+}
+
+.pic{
+    /* background-image: url("../images/bg-pattern-card.svg");     */
+    background-color:black;
+    
+    height: 37%;
+    border-radius: 15px 15px 0 0;
+}
+
+.who{
+    background-color:black;
+    height: 39%;
+    
+    /* border-bottom: 0.5px solid var(--light-gray); */
+}
+
+.stats{
+    background-color:black;
+    height: 24%;
+    border-radius: 0 0 15px 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
